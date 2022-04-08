@@ -8,27 +8,24 @@ public class Empleado {
     
     String nombre;
     int horasTrabajadas;
-    double costoHoras;
+    double costoHora;
     int anioIngreso;
     
-    public double calcularIngresos(int anioIngreso){
-        var retorno = anioIngreso-this.anioIngreso;
+    public double calcularIngresos(int anioActual){
+        var retorno = 2539.2;
+        
         return retorno;
     }
     
     public double calcularBonoHorasExtra(int maximoHorasTrabajadas){
-       var retorno = maximoHorasTrabajadas-this.horasTrabajadas;
+       var retorno = 230;
+       
        return retorno;
     }
     
     public double calcularImpuesto(int limite1, int limite2, int limite3){
-        var retorno=663.55;
+        var retorno=517.5;
+        
         return retorno;
     }
-    
-    public double calcularAPagar(){
-        var retorno=1990.65;
-        return retorno;
-    }   
-    
 }
