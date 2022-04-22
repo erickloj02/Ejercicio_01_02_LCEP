@@ -11,23 +11,23 @@ public class Ejercicio_01_02 {
        var empleadito = new Empleado();
        empleadito.nombre = "Erick Lojano";
        empleadito.horasTrabajadas = 160;
-       empleadito.costoHoras = 11.5;
+       empleadito.costoHora = 11.5;
        empleadito.anioIngreso = 2003;
        
        var empleados = new Empleado();
        empleados.nombre = "Maria Ortiz";
        empleados.horasTrabajadas = 100;
-       empleados.costoHoras = 9;
+       empleados.costoHora = 9;
        empleados.anioIngreso = 2010;
        
        System.out.println(empleadito.nombre+" | "+
                           empleadito.horasTrabajadas+" | "+
-                          empleadito.costoHoras+" | "+
+                          empleadito.costoHora+" | "+
                           empleadito.anioIngreso+" | ");
        
        System.out.println(empleados.nombre+" | "+
                           empleados.horasTrabajadas+" | "+
-                          empleados.costoHoras+" | "+
+                          empleados.costoHora+" | "+
                           empleados.anioIngreso+" | "); 
        
     }
